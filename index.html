@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="shizzle.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Vegetables</title>
+</head>
+
+<body>
+    <div class="topImg">
+        <span id="imageSpan">Prosperity in each taste</span>
+    </div>
+    <div class="breakFast">
+        <h3>Breakfast</h3>
+        <hr>
+        <div class="item">
+            <span class="itemName">Idli</span>
+            <span class="priceS">$</span><span class = "price" id="price1">30</span>
+            <input type="button" class="button" onclick="decrementQ('1')" value="-">
+            <input type="button" class="button" onclick="incrementQ('1')" value="+">
+            <span id="1" class="quantityDisplay">0</span>
+        </div>
+        <div class="item">
+            <span class="itemName">Sandwich</span>
+            <span class="priceS">$</span><span class = "price" id="price2">15</span>
+            <input type="button" class="button" onclick="decrementQ('2')" value="-">
+            <input type="button" class="button" onclick="incrementQ('2')" value="+">
+            <span id="2" class="quantityDisplay">0</span>
+        </div>
+        <div class="item">
+            <span class="itemName">Dosa</span>
+            <span class="priceS">$</span><span class = "price" id="price3">60</span>
+            <input type="button" class="button" onclick="decrementQ('3')" value="-">
+            <input type="button" class="button" onclick="incrementQ('3')" value="+">
+            <span id="3" class="quantityDisplay">0</span>
+        </div>
+    </div>
+    <div class="mainCourse">
+        <h3>Main Course</h3>
+        <hr>
+        <div class="item">
+            <span class="itemName">Paneer</span>
+            <span class="priceS">$</span><span class = "price" id="price4">150</span>
+            <input type="button" class="button" onclick="decrementQ('4')" value="-">
+            <input type="button" class="button" onclick="incrementQ('4')" value="+">
+            <span id="4" class="quantityDisplay">0</span>
+        </div>
+        <div class="item">
+            <span class="itemName">Sahi Paneer</span>
+            <span class="priceS">$</span><span class = "price" id="price5">170</span>
+            <input type="button" class="button" onclick="decrementQ('5')" value="-">
+            <input type="button" class="button" onclick="incrementQ('5')" value="+">
+            <span id="5" class="quantityDisplay">0</span>
+        </div>
+        <div class="item">
+            <span class="itemName">Paneer Kadhai</span>
+            <span class="priceS">$</span><span class = "price" id="price6">190</span>
+            <input type="button" class="button" onclick="decrementQ('6')" value="-">
+            <input type="button" class="button" onclick="incrementQ('6')" value="+">
+            <span id="6" class="quantityDisplay">0</span>
+        </div>
+    </div>
+    <div class="desert">
+        <h3>Desert</h3>
+        <hr>
+        <div class="item">
+            <span class="itemName">Ice Cream</span>
+            <span class="priceS">$</span><span class = "price" id="price7">50</span>
+            <input type="button" class="button" onclick="decrementQ('7')" value="-">
+            <input type="button" class="button" onclick="incrementQ('7')" value="+">
+            <span id="7" class="quantityDisplay">0</span>
+        </div>
+        <div class="item">
+            <span class="itemName">Peda</span>
+            <span class="priceS">$</span><span class = "price" id="price8">15</span>
+            <input type="button" class="button" onclick="decrementQ('8')" value="-">
+            <input type="button" class="button" onclick="incrementQ('8')" value="+">
+            <span id="8" class="quantityDisplay">0</span>
+        </div>
+        <div class="item">
+            <span class="itemName">Gulab Jamun</span>
+            <span class="priceS">$</span><span class = "price" id="price9">20</span>
+            <input type="button" class="button" onclick="decrementQ('9')" value="-">
+            <input type="button" class="button" onclick="incrementQ('9')" value="+">
+            <span id="9" class="quantityDisplay">0</span>
+        </div>
+    </div>
+    <div class="sendOrder">
+        <span class="totalPrice" id = "calcPrice">0</span>
+        <input type="button" class ="buttonSend" onclick="" value="Place Order">
+    </div>
+
+</body>
+</html>
