@@ -27,3 +27,7 @@ function calculateTotalPrice(priceId,cmd){
         document.getElementById(id).innerHTML = (total-price);
     }
 }
+
+function openOrderPlaced(){
+    window.open('orderPlaced.html','_self');
+}

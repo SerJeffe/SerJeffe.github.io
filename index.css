@@ -82,11 +82,11 @@
     padding-left: 15px;
     width: 100%;
     position: fixed;
-    bottom: 0;
+    bottom: 25%;
 }
 
 .buttonSend{
-    background-color: rgba(245, 43, 94, 0.856);
+    background-color: rgba(245, 73, 116, 0.952);
     color: white;
     border: 0px;
 }
